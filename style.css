@@ -47,7 +47,7 @@ html{
     font-weight: 500;
 }
 .navbar .logo a span{
-    color: #0066ff;
+    color: #0066ffb0;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -96,7 +96,7 @@ html{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color:#05a3ff ;
+    color:#003688 ;
     font-weight: 500;
 }
 .home .home-content a{
