@@ -16,15 +16,15 @@ $(document).ready(function(){
      });
 
      var typed = new Typed(".typing", {
-         strings:["Desenvolvedor Python", "Designer", "Freelancer"],
-         typeSpeed:100,
-         backSpeed:95,
+         strings:["Desenvolvedor Python", "", ""],
+         typeSpeed:90,
+         backSpeed:80,
          loop:true
      });
      var typed = new Typed(".typing-2", {
         strings:["Desenvolvedor Python"],
-        typeSpeed:100,
-        backSpeed:95,
+        typeSpeed:90,
+        backSpeed:80,
         loop:true
     });
 

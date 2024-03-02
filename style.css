@@ -10,7 +10,7 @@
 }
 html{
     scroll-behavior: smooth;
-    background-color: #004472e8;
+    background-color: #0e0e0eea;
 }
 
 .max-width{
@@ -96,13 +96,13 @@ html{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color:#0066ff ;
+    color:#05a3ff ;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: #0066ff;
-    color: rgb(0, 0, 0);
+    background: #0a0038;
+    color: rgb(255, 255, 255);
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -110,7 +110,7 @@ html{
     border: 2px solid #ffffff;
 }
 .home .home-content a:hover{
-    color: #4b93fd;
+    color: #ffffff;
     background: none;
 }
 
@@ -130,7 +130,7 @@ html{
     text-align: center;
     line-height: 50px;
     color: #fff;
-    background: #4b93fd;
+    background: #000000af;;
     border-radius: 6px;
     font-size: 30px;
     z-index: 9999;
@@ -196,10 +196,10 @@ section .title::after{
     content: "Quem sou eu";
 }
 .about .about-content .left{
-    width: 45%;
+    width: 35%;
 }
 .about .about-content .right{
-    width: 55%;
+    width: 63%;
 }
 .about .about-content .right .text{
     font-size: 32px;
@@ -207,16 +207,16 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: #0e48a0;
+    color: #d8d8d8;
 }
 .about .about-content .right p{
     text-align: justify;
-    font-size: 20px;
+    font-size: 22px;
     color: #ffffff;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #1c4ceb;
+    background: #0a0038;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -227,20 +227,20 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #4b93fd;
+    color: #ffffff;
     background: none;
 }
 .about .about-content .left img{
-    width: 400px;
-    height: 400px;
+    width: 370px;
+    height: 470px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 9px;
 }
 
-/*  sessão serviços */
+/*  sessão Projetos */
 .services, .teams{
-    background: #004472e8;
-    color: #2177f8;
+    background: #303030ea;
+    color: #ffffff;
 }
 .services .title::before,
 .teams .title::before{
@@ -255,12 +255,12 @@ section .title::after{
     background: #222;
     text-align: center;
     border-radius: 6px;
-    padding: 20px 25px;
+    padding: 25px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #4b93fd;
+    background: #00529e;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -269,8 +269,8 @@ section .title::after{
     transform: scale(1.05);
 }
 .services .serv-content .card ion-icon{
-    font-size: 70px;
-    color: #0e48a0;
+    font-size: 60px;
+    color: #ffffff;
 }
 .services .serv-content .card:hover ion-icon{
     color: #fff;
@@ -281,6 +281,43 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 /*  sessão especialidades  */
+
+
+
+
+.link-estilizado {
+    color: #fdfdfd; /* Cor do texto do link (substitua pela cor desejada) */
+    text-decoration: none; /* Remove a decoração padrão (sublinhado) do link */
+}
+
+.link-estilizado2 {
+    color: #f7f7f7; /* Cor do texto do link (substitua pela cor desejada) */
+    text-decoration: none; /* Remove a decoração padrão (sublinhado) do link */
+}
+
+.link-estilizado3 {
+    color: #fafafa; /* Cor do texto do link (substitua pela cor desejada) */
+    text-decoration: none; /* Remove a decoração padrão (sublinhado) do link */
+}
+
+.link-4 {
+    color: #fdfdfd; /* Cor do texto do link (substitua pela cor desejada) */
+    text-decoration: none; /* Remove a decoração padrão (sublinhado) do link */
+}
+
+.link-5 {
+    color: #fdfdfd; /* Cor do texto do link (substitua pela cor desejada) */
+    text-decoration: none; /* Remove a decoração padrão (sublinhado) do link */
+}
+
+.link-6 {
+    color: #fdfdfd; /* Cor do texto do link (substitua pela cor desejada) */
+    text-decoration: none; /* Remove a decoração padrão (sublinhado) do link */
+}
+
+
+
+
 
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -295,7 +332,7 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: #1c4ceb;
+    background: #123580;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -306,7 +343,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: #0e48a0;
+    color: #ffffff;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -333,10 +370,13 @@ section .title::after{
     height: 100%;
     top: 0;
     left: 0;
-    background: #4b93fd;
+    background: #000000;
 }
 .skills .skills-content .right .html::before{
-    width: 22%;
+    width: 25%;
+}
+.skills .skills-content .right .python::before{
+    width: 35%;
 }
 .skills .skills-content .right .css::before{
     width: 14%;
@@ -350,7 +390,12 @@ section .title::after{
 .skills .skills-content .right .mysql::before{
     width: 7%;
 }
+.skills .skills-content .right .dados::before{
+    width: 15%;
+}
+
 /*  sessão equipe  */
+
 .teams .title::after{
     content: "";
 }
@@ -362,7 +407,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: #4b93fd;
+    background: #3469b9;
 }
 .teams .carousel .card img{
     width: 150px;
@@ -443,7 +488,7 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .row .info .sub-title{
-    color: #747474;
+    color: #ffffff;
 }
 .contact .contact-content .row ion-icon{
     font-size: 25px;
@@ -462,7 +507,7 @@ section .title::after{
 .contact .rigth form .textarea textarea{
     width: 100%;
     height: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
@@ -491,7 +536,7 @@ section .title::after{
     width: 100%;
     height: 100%;
     border: 2px solid #ffffff;
-    background: #4b93fd;
+    background: #0a0038;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -500,19 +545,19 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .contact .rigth form .button button:hover{
-    color: #4b93fd;
+    color: #ffffff;
     background: none;
 }
 
 /*  sessão footer  */
 footer{
-    background: #111;
+    background: #000000;
     padding: 20px 23px;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
 }
 footer span a{
-    color: #4b93fd;
+    color: #2d7ef8;
     text-decoration: none;
 }
 footer span a:hover{
