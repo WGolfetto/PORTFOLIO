@@ -10,8 +10,9 @@
 }
 html{
     scroll-behavior: smooth;
-    background-color: #0e0e0eea;
+    background: linear-gradient(to bottom, #141414, #353535);
 }
+
 
 .max-width{
     max-width: 1300px;
